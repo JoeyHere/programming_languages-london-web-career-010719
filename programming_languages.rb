@@ -1,7 +1,7 @@
 require 'pry'
 
 def reformat_languages(languages)
-new_hash=Hash.new
+new_hash = {}
 languages.each do |key, value|
   value.each do |name, info|
     if new_hash[name] == nil
