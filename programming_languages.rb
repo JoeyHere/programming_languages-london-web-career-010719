@@ -7,7 +7,7 @@ def reformat_languages(languages)
     data.each do |language, values|
       new_hash[language] = values
 
-
+    end
   end
     puts new_hash
 end
