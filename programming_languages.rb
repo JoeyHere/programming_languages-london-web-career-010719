@@ -12,6 +12,4 @@ lang.each do |key, values|
 
 new_hash
 end
-
-
-  game_hash[:home][:players].merge(game_hash[:away][:players])
+end
