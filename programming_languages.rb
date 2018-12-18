@@ -9,6 +9,5 @@ languages.each do |key, value|
     end
     new_hash[name][:style] << key
 end
-end
 new_hash
 end
