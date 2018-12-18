@@ -9,7 +9,7 @@ def reformat_languages(languages)
 
 lang.each do |key, values|
   new_hash[key] = values
+end
 
 new_hash
-end
 end
